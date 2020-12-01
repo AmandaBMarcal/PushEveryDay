@@ -6,6 +6,8 @@ For example:
 solve([15,11,10,7,12]) = [15,7,12,10,11]
 The first max is 15 and the first min is 7. The second max is 12 and the second min is 10 and so on. */
 
+Had to look for the answers for this one.
+
 function solve(arr){
   var minMax = [];
   arr.sort((a,b)=>a-b);
